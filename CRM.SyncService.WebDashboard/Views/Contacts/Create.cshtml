@@ -1,0 +1,43 @@
+﻿@model CRM.SyncService.WebDashboard.Models.Contact
+
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h3>Create Contact</h3>
+<form asp-action="Create" method="post">
+    <div asp-validation-summary="All" class="text-danger"></div>
+    <div class="mb-3">
+        <label class="form-label">Name</label>
+        <input asp-for="ContactName" class="form-control" required />
+    </div>
+
+    <div class="mb-3">
+        <label class="form-label">Phone</label>
+        <input asp-for="Phone" class="form-control" />
+    </div>
+
+    <div class="mb-3">
+        <label class="form-label">Email</label>
+        <input asp-for="Email" class="form-control" />
+    </div>
+
+    <div class="mb-3">
+        <label class="form-label">Status</label>
+        <input asp-for="Status" class="form-control" />
+    </div>
+
+    <div class="mb-3">
+        <label class="form-label">Source</label>
+        <input asp-for="Source" class="form-control" />
+    </div>
+
+    <div class="form-check mb-3">
+        <input type="checkbox" name="SyncToClickUp" value="true" />
+        <label class="form-check-label">Sync to ClickUp</label>
+    </div>
+
+
+    <button type="submit" class="btn btn-primary">Save</button>
+    <a class="btn btn-secondary" href="/Contacts">Cancel</a>
+</form>

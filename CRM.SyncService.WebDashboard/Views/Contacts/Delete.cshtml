@@ -1,0 +1,14 @@
+﻿@model CRM.SyncService.WebDashboard.Models.Contact
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<h3>Delete Contact</h3>
+
+<p>Are you sure you want to delete <strong>@Model.ContactName</strong>?</p>
+
+<form asp-action="Delete">
+    <input type="hidden" asp-for="Id" />
+
+    <button class="btn btn-danger">Delete</button>
+    <a asp-action="Index" class="btn btn-secondary">Cancel</a>
+</form>
