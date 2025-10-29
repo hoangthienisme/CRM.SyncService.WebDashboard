@@ -144,3 +144,4 @@ D:\CRM.SyncService.WebDashboard\CRM.SyncService.WebDashboard\bin\Debug\net8.0\Re
 D:\CRM.SyncService.WebDashboard\CRM.SyncService.WebDashboard\bin\Debug\net8.0\System.Management.dll
 D:\CRM.SyncService.WebDashboard\CRM.SyncService.WebDashboard\bin\Debug\net8.0\runtimes\win\lib\net7.0\System.Management.dll
 D:\CRM.SyncService.WebDashboard\CRM.SyncService.WebDashboard\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
+D:\CRM.SyncService.WebDashboard\CRM.SyncService.WebDashboard\obj\Debug\net8.0\CRM.SyncService.WebDashboard.sourcelink.json
