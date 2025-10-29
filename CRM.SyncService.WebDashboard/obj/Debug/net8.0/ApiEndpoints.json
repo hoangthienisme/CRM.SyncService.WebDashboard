@@ -1,1 +1,28 @@
-[]
+[
+  {
+    "ContainingType": "CRM.SyncService.WebDashboard.Controllers.ContactsApiController",
+    "Method": "GetAll",
+    "RelativePath": "api/ContactsApi",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CRM.SyncService.WebDashboard.Controllers.ContactsApiController",
+    "Method": "GetById",
+    "RelativePath": "api/ContactsApi/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]
