@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "P5DfYoT1cJU=",
+  "dgSpecHash": "Bz1ThIZapbE=",
   "success": true,
-  "projectFilePath": "D:\\CRM.SyncService.WebDashboard\\CRM.SyncService.WebDashboard\\CRM.SyncService.WebDashboard.csproj",
+  "projectFilePath": "D:\\BE AIHUB\\CRM.SyncService.WebDashboard\\CRM.SyncService.WebDashboard\\CRM.SyncService.WebDashboard.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\PC\\.nuget\\packages\\google.apis\\1.72.0\\google.apis.1.72.0.nupkg.sha512",
     "C:\\Users\\PC\\.nuget\\packages\\google.apis.auth\\1.72.0\\google.apis.auth.1.72.0.nupkg.sha512",
