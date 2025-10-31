@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CRM.SyncService.WebDashboard")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+70fc1fd22d7cf7d14e7ae6b68f400b0333aeaaff")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3371e6598bbf46a72e3053d39c9983b1048689bf")]
 [assembly: System.Reflection.AssemblyProductAttribute("CRM.SyncService.WebDashboard")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CRM.SyncService.WebDashboard")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

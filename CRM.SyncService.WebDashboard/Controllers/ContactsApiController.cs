@@ -2,7 +2,7 @@
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 
-namespace CRM.SyncService.WebDashboard.API
+namespace CRM.SyncService.WebDashboard.Controllers
 {
     [ApiController]
     [Route("api/[controller]")]
