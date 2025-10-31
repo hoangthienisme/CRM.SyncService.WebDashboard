@@ -32,21 +32,21 @@ app.UseStaticFiles();
 app.UseRouting();
 app.UseAuthorization();
 app.UseSession();
-//app.Use(async (context, next) =>
-//{
-//    var path = context.Request.Path.ToString().ToLower();
-//    var userName = context.Session.GetString("UserName");
+app.Use(async (context, next) =>
+{
+    var path = context.Request.Path.ToString().ToLower();
+    var userName = context.Session.GetString("UserName");
 
-//    if (string.IsNullOrEmpty(userName) &&
-//        !path.StartsWith("/account/login") &&
-//        !path.StartsWith("/account/register"))
-//    {
-//        context.Response.Redirect("/Account/Login");
-//        return;
-//    }
+    if (string.IsNullOrEmpty(userName) &&
+        !path.StartsWith("/account/login") &&
+        !path.StartsWith("/account/register"))
+    {
+        context.Response.Redirect("/Account/Login");
+        return;
+    }
 
-//    await next();
-//});
+    await next();
+});
 // MVC routes
 app.MapControllerRoute(
     name: "default",
