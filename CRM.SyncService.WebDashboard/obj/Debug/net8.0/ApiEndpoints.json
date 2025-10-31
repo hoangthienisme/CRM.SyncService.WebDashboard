@@ -1,6 +1,6 @@
 [
   {
-    "ContainingType": "CRM.SyncService.WebDashboard.Controllers.ContactsApiController",
+    "ContainingType": "CRM.SyncService.WebDashboard.API.ContactsApiController",
     "Method": "GetAll",
     "RelativePath": "api/ContactsApi",
     "HttpMethod": "GET",
@@ -10,7 +10,7 @@
     "ReturnTypes": []
   },
   {
-    "ContainingType": "CRM.SyncService.WebDashboard.Controllers.ContactsApiController",
+    "ContainingType": "CRM.SyncService.WebDashboard.API.ContactsApiController",
     "Method": "GetById",
     "RelativePath": "api/ContactsApi/{id}",
     "HttpMethod": "GET",

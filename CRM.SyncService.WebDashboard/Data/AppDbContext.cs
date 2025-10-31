@@ -11,5 +11,10 @@ namespace CRM.SyncService.WebDashboard.Data
 
 
         public DbSet<Contact> Contacts { get; set; }
+        public DbSet<Order> Orders { get; set; }
+        public DbSet<Contract> Contracts { get; set; }
+        public DbSet<ServiceItem> Services { get; set; }
+        public DbSet<User> Users { get; set; }
+
     }
 }

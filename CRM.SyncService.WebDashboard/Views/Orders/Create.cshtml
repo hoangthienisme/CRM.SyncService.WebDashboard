@@ -1,0 +1,32 @@
+﻿@model CRM.SyncService.WebDashboard.Models.Order
+@{
+    ViewData["Title"] = "Tạo đơn hàng";
+}
+
+<div class="card shadow-sm border-0 p-4 mx-auto" style="max-width: 600px;">
+    <h5 class="fw-bold text-dark mb-3">
+        <i class="bi bi-plus-circle text-warning me-2"></i>Thêm đơn hàng mới
+    </h5>
+
+    <form asp-action="Create" method="post">
+        <div class="mb-3">
+            <label class="form-label fw-semibold">Khách hàng</label>
+            <select asp-for="ContactId" asp-items="ViewBag.Contacts" class="form-select" required></select>
+        </div>
+
+        <div class="mb-3">
+            <label class="form-label fw-semibold">Tổng tiền</label>
+            <input asp-for="TotalAmount" class="form-control" type="number" min="0" required />
+        </div>
+
+        <div class="mb-3">
+            <label class="form-label fw-semibold">Trạng thái</label>
+            <input asp-for="Status" class="form-control" placeholder="VD: Đang xử lý, Hoàn tất..." />
+        </div>
+
+        <div class="text-end">
+            <a asp-action="Index" class="btn btn-outline-secondary me-2">Hủy</a>
+            <button type="submit" class="btn btn-warning fw-semibold">Lưu</button>
+        </div>
+    </form>
+</div>

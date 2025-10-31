@@ -1,22 +1,70 @@
-html {
-  font-size: 14px;
-}
-
-@media (min-width: 768px) {
-  html {
-    font-size: 16px;
-  }
-}
-
-.btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
-  box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
-}
-
-html {
-  position: relative;
-  min-height: 100%;
-}
-
+﻿
 body {
-  margin-bottom: 60px;
+    background-color: #f8f9fa;
 }
+
+.navbar {
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.sidebar {
+    position: fixed;
+    top: 56px;
+    left: 0;
+    width: 240px;
+    height: 100%;
+    background: #212529;
+    padding-top: 1rem;
+    transition: all 0.3s ease;
+}
+
+    .sidebar a {
+        display: block;
+        color: #adb5bd;
+        padding: 10px 20px;
+        text-decoration: none;
+        font-weight: 500;
+    }
+
+        .sidebar a:hover,
+        .sidebar a.active {
+            background: #ffc107;
+            color: #212529;
+            border-radius: 8px;
+            margin: 0 8px;
+        }
+
+    .sidebar.show {
+        left: 0;
+    }
+
+.content {
+    margin-left: 240px;
+    padding: 80px 20px 40px;
+    transition: all 0.3s ease;
+}
+
+@media (max-width: 991px) {
+    .sidebar {
+        left: -240px;
+    }
+
+        .sidebar.show {
+            left: 0;
+        }
+
+    .content {
+        margin-left: 0;
+    }
+}
+
+footer {
+    margin-left: 240px;
+}
+
+@media (max-width: 991px) {
+    footer {
+        margin-left: 0;
+    }
+}
+

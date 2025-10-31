@@ -1,0 +1,187 @@
+﻿@{
+    ViewData["Title"] = "Dashboard";
+    var data = Model;
+
+    var services = new List<dynamic>
+    {
+        new { Name = "Tên Miền", Count = 234, Color = "info", Icon = "bi-globe" },
+        new { Name = "Hosting", Count = 89, Color = "success", Icon = "bi-hdd-fill" },
+        new { Name = "VPS", Count = 45, Color = "danger", Icon = "bi-server" }
+    };
+
+    var recentOrdersDetailed = new List<dynamic>
+    {
+        new { Code = "ORD-001", Customer = "Nguyễn Văn A", Amount = 2500000, Status = "Chờ xử lý" },
+        new { Code = "ORD-002", Customer = "Trần Thị B", Amount = 1800000, Status = "Hoàn thành" },
+        new { Code = "ORD-003", Customer = "Lê Văn C", Amount = 3200000, Status = "Đang xử lý" }
+    };
+}
+
+<div class="px-0 pt-0 pb-4">
+    <h4 class="fw-bolder mb-4 text-dark dashboard-title">Tổng quan CRM</h4>
+
+    <!-- Thống kê tổng -->
+    <div class="row g-3 mb-4">
+        <div class="col-lg-2-4 col-md-6 col-sm-6">
+            <div class="card p-3 shadow-sm bg-dark text-white">
+                <div class="d-flex justify-content-between align-items-center">
+                    <div>
+                        <small class="text-warning fw-semibold">Khách hàng</small>
+                        <h4 class="fw-bold mt-1">@data.TotalCustomers</h4>
+                    </div>
+                    <i class="bi bi-people-fill text-warning fs-4"></i>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-lg-2-4 col-md-6 col-sm-6">
+            <div class="card p-3 shadow-sm bg-dark text-white">
+                <div class="d-flex justify-content-between align-items-center">
+                    <div>
+                        <small class="text-warning fw-semibold">Đơn hàng tháng</small>
+                        <h4 class="fw-bold mt-1">@data.MonthlyOrders</h4>
+                    </div>
+                    <i class="bi bi-cart-fill text-warning fs-4"></i>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-lg-2-4 col-md-6 col-sm-6">
+            <div class="card p-3 shadow-sm bg-dark text-white">
+                <div class="d-flex justify-content-between align-items-center">
+                    <div>
+                        <small class="text-warning fw-semibold">Hợp đồng</small>
+                        <h4 class="fw-bold mt-1">@data.ActiveContracts</h4>
+                    </div>
+                    <i class="bi bi-file-earmark-text-fill text-warning fs-4"></i>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-lg-2-4 col-md-6 col-sm-6">
+            <div class="card p-3 shadow-sm bg-dark text-white">
+                <div class="d-flex justify-content-between align-items-center">
+                    <div>
+                        <small class="text-warning fw-semibold">Doanh thu tháng</small>
+                        <h4 class="fw-bold mt-1 text-warning">@data.MonthlyRevenue.ToString("N0") ₫</h4>
+                    </div>
+                    <i class="bi bi-currency-dollar text-warning fs-4"></i>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- 3 cột nội dung -->
+    <div class="row g-4 mb-4">
+
+        <!-- Dịch vụ -->
+        <div class="col-lg-4 col-md-6">
+            <div class="card p-4 shadow-sm h-100">
+                <h5 class="fw-bold text-dark mb-2">🛠️ Dịch vụ</h5>
+                <p class="text-muted small mb-3">Tổng quan các dịch vụ đang cung cấp</p>
+
+                @foreach (var svc in services)
+                {
+                    <div class="d-flex align-items-center mb-3">
+                        <div class="p-3 bg-dark text-@svc.Color rounded-circle me-3 fs-5">
+                            <i class="bi @svc.Icon"></i>
+                        </div>
+                        <div>
+                            <h6 class="mb-0 fw-bold">@svc.Name</h6>
+                            <small class="text-muted">@svc.Count dịch vụ</small>
+                        </div>
+                    </div>
+                }
+            </div>
+        </div>
+
+        <!-- Đơn hàng gần đây -->
+        <div class="col-lg-4 col-md-6">
+            <div class="card p-4 shadow-sm h-100">
+                <h5 class="fw-bold text-dark mb-2">📦 Đơn hàng gần đây</h5>
+                <p class="text-muted small mb-3">Các đơn hàng mới nhất</p>
+
+                @foreach (var order in recentOrdersDetailed)
+                {
+                    var badgeClass = order.Status == "Hoàn thành"
+                    ? "bg-success"
+                    : order.Status == "Đang xử lý"
+                    ? "bg-warning text-dark"
+                    : "bg-info text-dark";
+
+                    <div class="d-flex justify-content-between align-items-center border-bottom py-2">
+                        <div>
+                            <p class="mb-0 fw-bold">@order.Code</p>
+                            <small class="text-muted">@order.Customer</small>
+                        </div>
+                        <div class="text-end">
+                            <p class="mb-0 text-success fw-bold">@order.Amount.ToString("N0") ₫</p>
+                            <span class="badge @badgeClass">@order.Status</span>
+                        </div>
+                    </div>
+                }
+            </div>
+        </div>
+
+        <!-- Thao tác nhanh -->
+        <div class="col-lg-4 col-md-12">
+            <div class="card p-4 shadow-sm h-100">
+                <h5 class="fw-bold text-dark mb-2">⚡ Thao tác nhanh</h5>
+                <p class="text-muted small mb-3">Các chức năng thường dùng</p>
+
+                <ul class="list-group list-group-flush">
+                    <li class="list-group-item d-flex align-items-center border-0 px-0 py-2 fw-semibold">
+                        <i class="bi bi-person-plus-fill text-primary me-3 fs-5"></i>
+                        <a href="/Contacts/Create" class="text-dark text-decoration-none">Thêm khách hàng mới</a>
+                    </li>
+                    <li class="list-group-item d-flex align-items-center border-0 px-0 py-2 fw-semibold">
+                        <i class="bi bi-bag-plus-fill text-success me-3 fs-5"></i>
+                        <a href="/Orders/Create" class="text-dark text-decoration-none">Tạo đơn hàng</a>
+                    </li>
+                    <li class="list-group-item d-flex align-items-center border-0 px-0 py-2 fw-semibold">
+                        <i class="bi bi-file-earmark-plus-fill text-warning me-3 fs-5"></i>
+                        <a href="/Contracts/Create" class="text-dark text-decoration-none">Tạo hợp đồng</a>
+                    </li>
+                    <li class="list-group-item d-flex align-items-center border-0 px-0 py-2 fw-semibold">
+                        <i class="bi bi-cash-stack text-danger me-3 fs-5"></i>
+                        <a href="/Payments" class="text-dark text-decoration-none">Xử lý thanh toán</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <!-- Cảnh báo -->
+    <div class="row g-4">
+        <div class="col-12">
+            <div class="card p-4 shadow-sm">
+                <h5 class="fw-bold text-dark mb-3">
+                    <i class="bi bi-bell-fill text-warning me-2"></i>Cảnh báo & Thông báo
+                </h5>
+                <ul class="list-group list-group-flush small">
+                    <li class="list-group-item d-flex align-items-center border-0 px-0 py-2">
+                        <i class="bi bi-clock-history text-danger me-3 fs-5"></i>
+                        <div>
+                            <p class="mb-0 fw-semibold text-danger">5 tên miền sắp hết hạn</p>
+                            <small class="text-muted">Cần gia hạn trong 30 ngày tới</small>
+                        </div>
+                    </li>
+                    <li class="list-group-item d-flex align-items-center border-0 px-0 py-2">
+                        <i class="bi bi-exclamation-triangle-fill text-warning me-3 fs-5"></i>
+                        <div>
+                            <p class="mb-0 fw-semibold text-warning">3 hosting đã hết hạn</p>
+                            <small class="text-muted">Cần xử lý ngay</small>
+                        </div>
+                    </li>
+                    <li class="list-group-item d-flex align-items-center border-0 px-0 py-2">
+                        <i class="bi bi-wallet-fill text-info me-3 fs-5"></i>
+                        <div>
+                            <p class="mb-0 fw-semibold text-dark">12 đơn hàng chờ thanh toán</p>
+                            <small class="text-muted">Cần theo dõi</small>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>

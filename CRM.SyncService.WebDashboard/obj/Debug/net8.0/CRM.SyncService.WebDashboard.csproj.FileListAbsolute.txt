@@ -285,10 +285,10 @@ D:\BE AIHUB\CRM.SyncService.WebDashboard\CRM.SyncService.WebDashboard\obj\Debug\
 D:\BE AIHUB\CRM.SyncService.WebDashboard\CRM.SyncService.WebDashboard\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.CRM.SyncService.WebDashboard.props
 D:\BE AIHUB\CRM.SyncService.WebDashboard\CRM.SyncService.WebDashboard\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.CRM.SyncService.WebDashboard.props
 D:\BE AIHUB\CRM.SyncService.WebDashboard\CRM.SyncService.WebDashboard\obj\Debug\net8.0\staticwebassets.pack.json
-D:\BE AIHUB\CRM.SyncService.WebDashboard\CRM.SyncService.WebDashboard\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
 D:\BE AIHUB\CRM.SyncService.WebDashboard\CRM.SyncService.WebDashboard\obj\Debug\net8.0\CRM.Sync.93FD9990.Up2Date
 D:\BE AIHUB\CRM.SyncService.WebDashboard\CRM.SyncService.WebDashboard\obj\Debug\net8.0\CRM.SyncService.WebDashboard.dll
 D:\BE AIHUB\CRM.SyncService.WebDashboard\CRM.SyncService.WebDashboard\obj\Debug\net8.0\refint\CRM.SyncService.WebDashboard.dll
 D:\BE AIHUB\CRM.SyncService.WebDashboard\CRM.SyncService.WebDashboard\obj\Debug\net8.0\CRM.SyncService.WebDashboard.pdb
 D:\BE AIHUB\CRM.SyncService.WebDashboard\CRM.SyncService.WebDashboard\obj\Debug\net8.0\CRM.SyncService.WebDashboard.genruntimeconfig.cache
 D:\BE AIHUB\CRM.SyncService.WebDashboard\CRM.SyncService.WebDashboard\obj\Debug\net8.0\ref\CRM.SyncService.WebDashboard.dll
+D:\BE AIHUB\CRM.SyncService.WebDashboard\CRM.SyncService.WebDashboard\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt

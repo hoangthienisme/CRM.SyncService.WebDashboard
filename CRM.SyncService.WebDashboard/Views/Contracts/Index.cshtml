@@ -1,0 +1,81 @@
+﻿@model IEnumerable<CRM.SyncService.WebDashboard.Models.Contract>
+
+@{
+    ViewData["Title"] = "Contracts";
+}
+
+<!-- Loại bỏ container để tận dụng độ rộng của khu vực content (đã căn chỉnh trong _Layout) -->
+<div class="px-0 pt-0 pb-4">
+    <div class="d-flex justify-content-between align-items-center mb-4">
+        <!-- Tiêu đề lớn hơn một chút -->
+        <h3 class="fw-bolder mb-0 text-dark"> Quản lý Hợp đồng</h3>
+        <!-- Nút thêm mới màu vàng kim nổi bật -->
+        <a asp-action="Create" class="btn btn-warning text-dark fw-bold shadow-sm">
+            <i class="bi bi-plus-lg"></i> Thêm Hợp đồng mới
+        </a>
+    </div>
+
+    <!-- Khối table trong card có shadow -->
+    <div class="card shadow-lg border-0 p-3">
+        <div class="table-responsive">
+            <table class="table table-striped table-hover align-middle mb-0">
+                <!-- Tiêu đề màu đen tuyền -->
+                <thead class="bg-dark text-white">
+                    <tr>
+                        <th class="fw-semibold">Mã HĐ</th>
+                        <th class="fw-semibold">Khách hàng</th>
+                        <th class="fw-semibold">Dịch vụ</th>
+                        <th class="fw-semibold">Tổng tiền</th>
+                        <th class="fw-semibold">Ngày bắt đầu</th>
+                        <th class="fw-semibold">Ngày kết thúc</th>
+                        <th class="fw-semibold">Trạng thái</th>
+                        <th class="text-center fw-semibold" style="width: 150px;">Thao tác</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var c in Model)
+                    {
+                        <tr>
+                            <td class="fw-semibold">@c.ContractCode</td>
+                            <td>@c.Contact?.ContactName</td>
+                            <td>@c.Service?.ServiceName</td>
+                            <!-- Hiển thị tiền tệ với màu xanh lá -->
+                            <td class="text-success fw-bold">@c.TotalAmount.ToString("N0") ₫</td>
+                            <td>@c.StartDate.ToString("dd/MM/yyyy")</td>
+                            <td>@c.EndDate.ToString("dd/MM/yyyy")</td>
+                            <td>
+                                @if (c.Status == "Active")
+                                {
+                                    <span class="badge bg-success fw-bold">Hoạt động</span>
+                                }
+                                else if (c.Status == "Pending")
+                                {
+                                    <span class="badge bg-warning text-dark fw-bold">Chờ duyệt</span>
+                                }
+                                else if (c.Status == "Expired")
+                                {
+                                    <!-- Sử dụng bg-danger để báo hiệu hết hạn -->
+                                    <span class="badge bg-danger">Hết hạn</span>
+                                }
+                                else
+                                {
+                                    <span class="badge bg-light text-dark">@c.Status</span>
+                                }
+                            </td>
+                            <td class="text-center">
+                                <!-- Nút Edit viền vàng kim -->
+                                <a asp-action="Edit" asp-route-id="@c.Id" class="btn btn-sm btn-outline-warning text-dark me-1">
+                                    <i class="bi bi-pencil"></i>
+                                </a>
+                                <!-- Nút Delete viền đỏ -->
+                                <a asp-action="Delete" asp-route-id="@c.Id" class="btn btn-sm btn-outline-danger">
+                                    <i class="bi bi-trash"></i>
+                                </a>
+                            </td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
