@@ -151,21 +151,19 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAEEAAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-10-31T01:34:08.856Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "IsPinned": true
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "CRM.SyncService.WebDashboard",
+              "Title": "CRM.SyncService.WebDashboard.csproj",
               "DocumentMoniker": "D:\\BE AIHUB\\CRM.SyncService.WebDashboard\\CRM.SyncService.WebDashboard\\CRM.SyncService.WebDashboard.csproj",
               "RelativeDocumentMoniker": "CRM.SyncService.WebDashboard\\CRM.SyncService.WebDashboard.csproj",
               "ToolTip": "D:\\BE AIHUB\\CRM.SyncService.WebDashboard\\CRM.SyncService.WebDashboard\\CRM.SyncService.WebDashboard.csproj",
               "RelativeToolTip": "CRM.SyncService.WebDashboard\\CRM.SyncService.WebDashboard.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-11-01T02:17:26.784Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-01T02:17:26.784Z"
             },
             {
               "$type": "Document",
@@ -177,8 +175,7 @@
               "RelativeToolTip": "CRM.SyncService.WebDashboard\\Services\\GoogleSheetService.cs",
               "ViewState": "AgIAABgAAAAAAAAAAAAAAAsAAAAxAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-01T01:28:41.073Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-01T01:28:41.073Z"
             },
             {
               "$type": "Document",
@@ -190,8 +187,7 @@
               "RelativeToolTip": "CRM.SyncService.WebDashboard\\Services\\TelegramService.cs",
               "ViewState": "AgIAABIAAAAAAAAAAIBJwAwAAAALAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-01T00:46:12.985Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-01T00:46:12.985Z"
             },
             {
               "$type": "Document",
@@ -203,8 +199,7 @@
               "RelativeToolTip": "CRM.SyncService.WebDashboard\\Services\\TelegramAlertService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-01T00:43:42.339Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-01T00:43:42.339Z"
             },
             {
               "$type": "Document",
@@ -216,8 +211,7 @@
               "RelativeToolTip": "CRM.SyncService.WebDashboard\\Views\\_ViewImports.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-10-31T08:52:33.35Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-31T08:52:33.35Z"
             },
             {
               "$type": "Document",
@@ -229,8 +223,7 @@
               "RelativeToolTip": "CRM.SyncService.WebDashboard\\Controllers\\ContactsController.cs",
               "ViewState": "AgIAAHEAAAAAAAAAAAAUwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-31T08:49:46.747Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-31T08:49:46.747Z"
             },
             {
               "$type": "Document",
@@ -242,8 +235,7 @@
               "RelativeToolTip": "CRM.SyncService.WebDashboard\\Controllers\\ContactsApiController.cs",
               "ViewState": "AgIAACMAAAAAAAAAAAAgwBEAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-31T06:32:06.448Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-31T06:32:06.448Z"
             },
             {
               "$type": "Document",
@@ -255,8 +247,7 @@
               "RelativeToolTip": "CRM.SyncService.WebDashboard\\Views\\Account\\Register.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-10-31T04:02:43.043Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-31T04:02:43.043Z"
             },
             {
               "$type": "Document",
@@ -268,8 +259,7 @@
               "RelativeToolTip": "CRM.SyncService.WebDashboard\\Views\\Account\\Login.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAADUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-10-31T04:02:28.06Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-31T04:02:28.06Z"
             },
             {
               "$type": "Document",
@@ -281,8 +271,7 @@
               "RelativeToolTip": "CRM.SyncService.WebDashboard\\Models\\User.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAlAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-31T04:00:19Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-31T04:00:19Z"
             },
             {
               "$type": "Document",
@@ -294,8 +283,7 @@
               "RelativeToolTip": "CRM.SyncService.WebDashboard\\Controllers\\AccountController.cs",
               "ViewState": "AgIAADwAAAAAAAAAAAAAwHwAAAA7AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-31T04:00:06.835Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-31T04:00:06.835Z"
             },
             {
               "$type": "Document",
@@ -307,8 +295,7 @@
               "RelativeToolTip": "CRM.SyncService.WebDashboard\\Views\\Orders\\Delete.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-10-31T03:55:07.022Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-31T03:55:07.022Z"
             },
             {
               "$type": "Document",
@@ -320,8 +307,7 @@
               "RelativeToolTip": "CRM.SyncService.WebDashboard\\Views\\Orders\\Edit.cshtml",
               "ViewState": "AgIAAB4AAAAAAAAAAIBJwBoAAAAOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-10-31T03:54:45.121Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-31T03:54:45.121Z"
             },
             {
               "$type": "Document",
@@ -333,8 +319,7 @@
               "RelativeToolTip": "CRM.SyncService.WebDashboard\\Views\\Orders\\Create.cshtml",
               "ViewState": "AgIAABgAAAAAAAAAAIBJwA8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-10-31T03:53:36.639Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-31T03:53:36.639Z"
             },
             {
               "$type": "Document",
@@ -346,8 +331,7 @@
               "RelativeToolTip": "CRM.SyncService.WebDashboard\\wwwroot\\css\\site.css",
               "ViewState": "AgIAAD8AAAAAAAAAAIBJwAoAAAAUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2025-10-31T02:30:35.602Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-31T02:30:35.602Z"
             },
             {
               "$type": "Document",
@@ -359,8 +343,7 @@
               "RelativeToolTip": "CRM.SyncService.WebDashboard\\Views\\Shared\\_Layout.cshtml",
               "ViewState": "AgIAAFIAAAAAAAAAAIBJwF0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-10-31T02:06:02.95Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-31T02:06:02.95Z"
             },
             {
               "$type": "Document",
@@ -372,8 +355,7 @@
               "RelativeToolTip": "CRM.SyncService.WebDashboard\\Program.cs",
               "ViewState": "AgIAAD0AAAAAAAAAAAAwwFAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-31T02:05:42.8Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-31T02:05:42.8Z"
             },
             {
               "$type": "Document",
@@ -385,8 +367,7 @@
               "RelativeToolTip": "CRM.SyncService.WebDashboard\\Views\\Contracts\\Index.cshtml",
               "ViewState": "AgIAAD8AAAAAAAAAAIBJwDoAAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-10-31T01:58:40.271Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-31T01:58:40.271Z"
             },
             {
               "$type": "Document",
@@ -398,8 +379,7 @@
               "RelativeToolTip": "CRM.SyncService.WebDashboard\\Models\\Enums\\ServiceType.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-31T01:57:36.197Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-31T01:57:36.197Z"
             },
             {
               "$type": "Document",
@@ -411,8 +391,7 @@
               "RelativeToolTip": "CRM.SyncService.WebDashboard\\Models\\Enums\\OrderStatus.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-31T01:57:37.44Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-31T01:57:37.44Z"
             },
             {
               "$type": "Document",
@@ -424,8 +403,7 @@
               "RelativeToolTip": "CRM.SyncService.WebDashboard\\Controllers\\ServiceItemController.cs",
               "ViewState": "AgIAAEAAAAAAAAAAAADwvwoAAABCAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-31T01:53:19.362Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-31T01:53:19.362Z"
             },
             {
               "$type": "Document",
@@ -437,8 +415,7 @@
               "RelativeToolTip": "CRM.SyncService.WebDashboard\\Controllers\\ContractsController.cs",
               "ViewState": "AgIAAFsAAAAAAAAAAADwvwoAAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-31T01:35:00.936Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-31T01:35:00.936Z"
             },
             {
               "$type": "Document",
@@ -450,8 +427,7 @@
               "RelativeToolTip": "CRM.SyncService.WebDashboard\\Controllers\\DashboardController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-31T01:32:19.741Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-31T01:32:19.741Z"
             },
             {
               "$type": "Document",
@@ -463,8 +439,7 @@
               "RelativeToolTip": "CRM.SyncService.WebDashboard\\Models\\Contact.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAowA8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-31T01:30:23.992Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-31T01:30:23.992Z"
             },
             {
               "$type": "Document",
@@ -476,8 +451,7 @@
               "RelativeToolTip": "CRM.SyncService.WebDashboard\\Models\\Contract.cs",
               "ViewState": "AgIAABUAAAAAAAAAAADwvyIAAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-31T01:30:36.09Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-31T01:30:36.09Z"
             },
             {
               "$type": "Document",
@@ -489,8 +463,7 @@
               "RelativeToolTip": "CRM.SyncService.WebDashboard\\Models\\ServiceItem.cs",
               "ViewState": "AgIAAAUAAAAAAAAAAAAYwAoAAAAvAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-31T01:30:56.315Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-31T01:30:56.315Z"
             },
             {
               "$type": "Document",
@@ -502,8 +475,7 @@
               "RelativeToolTip": "CRM.SyncService.WebDashboard\\Views\\Orders\\Index.cshtml",
               "ViewState": "AgIAABsAAAAAAAAAAIBJwBMAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-10-31T01:34:54.545Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-31T01:34:54.545Z"
             },
             {
               "$type": "Document",
@@ -515,8 +487,7 @@
               "RelativeToolTip": "CRM.SyncService.WebDashboard\\Views\\Dashboard\\Index.cshtml",
               "ViewState": "AgIAAKUAAAAAAAAAAIBJwJEAAAAKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-10-31T01:32:41.245Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-31T01:32:41.245Z"
             },
             {
               "$type": "Document",
@@ -526,7 +497,7 @@
               "RelativeDocumentMoniker": "CRM.SyncService.WebDashboard\\appsettings.json",
               "ToolTip": "D:\\BE AIHUB\\CRM.SyncService.WebDashboard\\CRM.SyncService.WebDashboard\\appsettings.json",
               "RelativeToolTip": "CRM.SyncService.WebDashboard\\appsettings.json",
-              "ViewState": "AgIAABEAAAAAAAAAAAAAAA8AAAAEAAAAAAAAAA==",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAowCIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
               "WhenOpened": "2025-10-31T01:31:52.795Z",
               "EditorCaption": ""
@@ -541,8 +512,7 @@
               "RelativeToolTip": "CRM.SyncService.WebDashboard\\Data\\AppDbContext.cs",
               "ViewState": "AgIAAAgAAAAAAAAAAAAAwAoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-31T01:31:08.354Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-31T01:31:08.354Z"
             },
             {
               "$type": "Document",
@@ -554,8 +524,7 @@
               "RelativeToolTip": "CRM.SyncService.WebDashboard\\Models\\Order.cs",
               "ViewState": "AgIAAAwAAAAAAAAAAAAswBkAAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-31T01:30:12.648Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-31T01:30:12.648Z"
             }
           ]
         }
