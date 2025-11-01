@@ -1,16 +1,28 @@
-﻿using System.Security.Cryptography;
+﻿using System.IdentityModel.Tokens.Jwt;
+using System.Security.Claims;
+using System.Security.Cryptography;
 using System.Text;
 using CRM.SyncService.WebDashboard.Data;
 using CRM.SyncService.WebDashboard.Models;
+using CRM.SyncService.WebDashboard.Services;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.IdentityModel.Tokens;
 
 namespace CRM.SyncService.WebDashboard.Controllers
 {
     public class AccountController : Controller
     {
         private readonly AppDbContext _db;
-        public AccountController(AppDbContext db) => _db = db;
+        private readonly TelegramAlertService _telegram;
+        private readonly IConfiguration _config;
+        public AccountController(AppDbContext db, TelegramAlertService telegram, IConfiguration config)
+         { 
+            _db = db;
+            _telegram = telegram;
+            _config = config;
+        }
 
         public IActionResult Login() => View();
 
@@ -20,7 +32,11 @@ namespace CRM.SyncService.WebDashboard.Controllers
         {
             var hash = HashPassword(password);
             var user = await _db.Users.FirstOrDefaultAsync(u => u.Email == email && u.PasswordHash == hash);
-
+            //if (email != "admin@gmail.com" || password != "123")
+            //{
+            //    await _telegram.SendAlertAsync($"Login failed: user={email}, IP={HttpContext.Connection.RemoteIpAddress}");
+            //    return Unauthorized();
+            //}
             if (user == null)
             {
                 ViewBag.Error = "Sai email hoặc mật khẩu!";
@@ -31,6 +47,47 @@ namespace CRM.SyncService.WebDashboard.Controllers
             HttpContext.Session.SetString("UserEmail", user.Email);
 
             return RedirectToAction("Index", "Dashboard");
+        }
+        [HttpPost("/api/login")]
+        public IActionResult ApiLogin([FromBody] LoginDto model)
+        {
+            if (model == null || string.IsNullOrEmpty(model.Email) || string.IsNullOrEmpty(model.Password))
+                return BadRequest("Missing credentials");
+
+            var hashed = HashPassword(model.Password);
+            var user = _db.Users.FirstOrDefault(u => u.Email == model.Email && u.PasswordHash == hashed);
+
+            if (user == null)
+                return Unauthorized();
+
+            // Tạo JWT
+            var claims = new[]
+            {
+        new Claim(ClaimTypes.Name, user.Email),
+        new Claim("FullName", user.FullName)
+    };
+
+            var key = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(_config["Jwt:Key"]));
+            var creds = new SigningCredentials(key, SecurityAlgorithms.HmacSha256);
+
+            var token = new JwtSecurityToken(
+                issuer: _config["Jwt:Issuer"],
+                audience: _config["Jwt:Audience"],
+                claims: claims,
+                expires: DateTime.Now.AddHours(3),
+                signingCredentials: creds);
+
+            return Ok(new
+            {
+                token = new JwtSecurityTokenHandler().WriteToken(token)
+            });
+        }
+
+
+        public class LoginDto
+        {
+            public string Email { get; set; }
+            public string Password { get; set; }
         }
 
         public IActionResult Register() => View();

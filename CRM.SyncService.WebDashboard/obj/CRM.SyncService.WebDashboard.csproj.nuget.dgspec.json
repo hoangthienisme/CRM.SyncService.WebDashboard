@@ -66,6 +66,10 @@
               "target": "Package",
               "version": "[1.70.0.3819, )"
             },
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[8.0.10, )"
+            },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
               "version": "[9.0.10, )"
@@ -87,6 +91,10 @@
             "RestSharp": {
               "target": "Package",
               "version": "[112.1.0, )"
+            },
+            "System.IdentityModel.Tokens.Jwt": {
+              "target": "Package",
+              "version": "[8.14.0, )"
             }
           },
           "imports": [

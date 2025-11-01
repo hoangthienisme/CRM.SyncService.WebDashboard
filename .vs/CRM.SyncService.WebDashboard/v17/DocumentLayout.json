@@ -3,16 +3,40 @@
   "WorkspaceRootPath": "D:\\BE AIHUB\\CRM.SyncService.WebDashboard\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{83CDFE5C-DCA8-44CB-AD5D-8A97458651A7}|CRM.SyncService.WebDashboard\\CRM.SyncService.WebDashboard.csproj|d:\\be aihub\\crm.syncservice.webdashboard\\crm.syncservice.webdashboard\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{83CDFE5C-DCA8-44CB-AD5D-8A97458651A7}|CRM.SyncService.WebDashboard\\CRM.SyncService.WebDashboard.csproj|solutionrelative:crm.syncservice.webdashboard\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{83CDFE5C-DCA8-44CB-AD5D-8A97458651A7}|CRM.SyncService.WebDashboard\\CRM.SyncService.WebDashboard.csproj|d:\\be aihub\\crm.syncservice.webdashboard\\crm.syncservice.webdashboard\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{83CDFE5C-DCA8-44CB-AD5D-8A97458651A7}|CRM.SyncService.WebDashboard\\CRM.SyncService.WebDashboard.csproj|solutionrelative:crm.syncservice.webdashboard\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{83CDFE5C-DCA8-44CB-AD5D-8A97458651A7}|CRM.SyncService.WebDashboard\\CRM.SyncService.WebDashboard.csproj|d:\\be aihub\\crm.syncservice.webdashboard\\crm.syncservice.webdashboard\\controllers\\contactsapicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{83CDFE5C-DCA8-44CB-AD5D-8A97458651A7}|CRM.SyncService.WebDashboard\\CRM.SyncService.WebDashboard.csproj|solutionrelative:crm.syncservice.webdashboard\\controllers\\contactsapicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{83CDFE5C-DCA8-44CB-AD5D-8A97458651A7}|CRM.SyncService.WebDashboard\\CRM.SyncService.WebDashboard.csproj|d:\\be aihub\\crm.syncservice.webdashboard\\crm.syncservice.webdashboard\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{83CDFE5C-DCA8-44CB-AD5D-8A97458651A7}|CRM.SyncService.WebDashboard\\CRM.SyncService.WebDashboard.csproj|solutionrelative:crm.syncservice.webdashboard\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{83CDFE5C-DCA8-44CB-AD5D-8A97458651A7}|CRM.SyncService.WebDashboard\\CRM.SyncService.WebDashboard.csproj|d:\\be aihub\\crm.syncservice.webdashboard\\crm.syncservice.webdashboard\\crm.syncservice.webdashboard.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{83CDFE5C-DCA8-44CB-AD5D-8A97458651A7}|CRM.SyncService.WebDashboard\\CRM.SyncService.WebDashboard.csproj|solutionrelative:crm.syncservice.webdashboard\\crm.syncservice.webdashboard.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{83CDFE5C-DCA8-44CB-AD5D-8A97458651A7}|CRM.SyncService.WebDashboard\\CRM.SyncService.WebDashboard.csproj|d:\\be aihub\\crm.syncservice.webdashboard\\crm.syncservice.webdashboard\\services\\googlesheetservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{83CDFE5C-DCA8-44CB-AD5D-8A97458651A7}|CRM.SyncService.WebDashboard\\CRM.SyncService.WebDashboard.csproj|solutionrelative:crm.syncservice.webdashboard\\services\\googlesheetservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{83CDFE5C-DCA8-44CB-AD5D-8A97458651A7}|CRM.SyncService.WebDashboard\\CRM.SyncService.WebDashboard.csproj|d:\\be aihub\\crm.syncservice.webdashboard\\crm.syncservice.webdashboard\\services\\telegramalertservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{83CDFE5C-DCA8-44CB-AD5D-8A97458651A7}|CRM.SyncService.WebDashboard\\CRM.SyncService.WebDashboard.csproj|solutionrelative:crm.syncservice.webdashboard\\services\\telegramalertservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{83CDFE5C-DCA8-44CB-AD5D-8A97458651A7}|CRM.SyncService.WebDashboard\\CRM.SyncService.WebDashboard.csproj|d:\\be aihub\\crm.syncservice.webdashboard\\crm.syncservice.webdashboard\\services\\telegramservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{83CDFE5C-DCA8-44CB-AD5D-8A97458651A7}|CRM.SyncService.WebDashboard\\CRM.SyncService.WebDashboard.csproj|solutionrelative:crm.syncservice.webdashboard\\services\\telegramservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{83CDFE5C-DCA8-44CB-AD5D-8A97458651A7}|CRM.SyncService.WebDashboard\\CRM.SyncService.WebDashboard.csproj|d:\\be aihub\\crm.syncservice.webdashboard\\crm.syncservice.webdashboard\\controllers\\serviceitemcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{83CDFE5C-DCA8-44CB-AD5D-8A97458651A7}|CRM.SyncService.WebDashboard\\CRM.SyncService.WebDashboard.csproj|solutionrelative:crm.syncservice.webdashboard\\controllers\\serviceitemcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{83CDFE5C-DCA8-44CB-AD5D-8A97458651A7}|CRM.SyncService.WebDashboard\\CRM.SyncService.WebDashboard.csproj|d:\\be aihub\\crm.syncservice.webdashboard\\crm.syncservice.webdashboard\\controllers\\contactsapicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{83CDFE5C-DCA8-44CB-AD5D-8A97458651A7}|CRM.SyncService.WebDashboard\\CRM.SyncService.WebDashboard.csproj|solutionrelative:crm.syncservice.webdashboard\\controllers\\contactsapicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{83CDFE5C-DCA8-44CB-AD5D-8A97458651A7}|CRM.SyncService.WebDashboard\\CRM.SyncService.WebDashboard.csproj|d:\\be aihub\\crm.syncservice.webdashboard\\crm.syncservice.webdashboard\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -21,10 +45,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{83CDFE5C-DCA8-44CB-AD5D-8A97458651A7}|CRM.SyncService.WebDashboard\\CRM.SyncService.WebDashboard.csproj|d:\\be aihub\\crm.syncservice.webdashboard\\crm.syncservice.webdashboard\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{83CDFE5C-DCA8-44CB-AD5D-8A97458651A7}|CRM.SyncService.WebDashboard\\CRM.SyncService.WebDashboard.csproj|solutionrelative:crm.syncservice.webdashboard\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{83CDFE5C-DCA8-44CB-AD5D-8A97458651A7}|CRM.SyncService.WebDashboard\\CRM.SyncService.WebDashboard.csproj|d:\\be aihub\\crm.syncservice.webdashboard\\crm.syncservice.webdashboard\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{83CDFE5C-DCA8-44CB-AD5D-8A97458651A7}|CRM.SyncService.WebDashboard\\CRM.SyncService.WebDashboard.csproj|solutionrelative:crm.syncservice.webdashboard\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{83CDFE5C-DCA8-44CB-AD5D-8A97458651A7}|CRM.SyncService.WebDashboard\\CRM.SyncService.WebDashboard.csproj|d:\\be aihub\\crm.syncservice.webdashboard\\crm.syncservice.webdashboard\\views\\orders\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -75,10 +95,6 @@
       "RelativeMoniker": "D:0:0:{83CDFE5C-DCA8-44CB-AD5D-8A97458651A7}|CRM.SyncService.WebDashboard\\CRM.SyncService.WebDashboard.csproj|solutionrelative:crm.syncservice.webdashboard\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{83CDFE5C-DCA8-44CB-AD5D-8A97458651A7}|CRM.SyncService.WebDashboard\\CRM.SyncService.WebDashboard.csproj|d:\\be aihub\\crm.syncservice.webdashboard\\crm.syncservice.webdashboard\\controllers\\serviceitemcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{83CDFE5C-DCA8-44CB-AD5D-8A97458651A7}|CRM.SyncService.WebDashboard\\CRM.SyncService.WebDashboard.csproj|solutionrelative:crm.syncservice.webdashboard\\controllers\\serviceitemcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{83CDFE5C-DCA8-44CB-AD5D-8A97458651A7}|CRM.SyncService.WebDashboard\\CRM.SyncService.WebDashboard.csproj|d:\\be aihub\\crm.syncservice.webdashboard\\crm.syncservice.webdashboard\\controllers\\orderscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{83CDFE5C-DCA8-44CB-AD5D-8A97458651A7}|CRM.SyncService.WebDashboard\\CRM.SyncService.WebDashboard.csproj|solutionrelative:crm.syncservice.webdashboard\\controllers\\orderscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -122,11 +138,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 29,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 23,
               "Title": "OrdersController.cs",
               "DocumentMoniker": "D:\\BE AIHUB\\CRM.SyncService.WebDashboard\\CRM.SyncService.WebDashboard\\Controllers\\OrdersController.cs",
               "RelativeDocumentMoniker": "CRM.SyncService.WebDashboard\\Controllers\\OrdersController.cs",
@@ -140,7 +156,59 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CRM.SyncService.WebDashboard",
+              "DocumentMoniker": "D:\\BE AIHUB\\CRM.SyncService.WebDashboard\\CRM.SyncService.WebDashboard\\CRM.SyncService.WebDashboard.csproj",
+              "RelativeDocumentMoniker": "CRM.SyncService.WebDashboard\\CRM.SyncService.WebDashboard.csproj",
+              "ToolTip": "D:\\BE AIHUB\\CRM.SyncService.WebDashboard\\CRM.SyncService.WebDashboard\\CRM.SyncService.WebDashboard.csproj",
+              "RelativeToolTip": "CRM.SyncService.WebDashboard\\CRM.SyncService.WebDashboard.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-11-01T02:17:26.784Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 4,
+              "Title": "GoogleSheetService.cs",
+              "DocumentMoniker": "D:\\BE AIHUB\\CRM.SyncService.WebDashboard\\CRM.SyncService.WebDashboard\\Services\\GoogleSheetService.cs",
+              "RelativeDocumentMoniker": "CRM.SyncService.WebDashboard\\Services\\GoogleSheetService.cs",
+              "ToolTip": "D:\\BE AIHUB\\CRM.SyncService.WebDashboard\\CRM.SyncService.WebDashboard\\Services\\GoogleSheetService.cs",
+              "RelativeToolTip": "CRM.SyncService.WebDashboard\\Services\\GoogleSheetService.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAAAAsAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-01T01:28:41.073Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "TelegramService.cs",
+              "DocumentMoniker": "D:\\BE AIHUB\\CRM.SyncService.WebDashboard\\CRM.SyncService.WebDashboard\\Services\\TelegramService.cs",
+              "RelativeDocumentMoniker": "CRM.SyncService.WebDashboard\\Services\\TelegramService.cs",
+              "ToolTip": "D:\\BE AIHUB\\CRM.SyncService.WebDashboard\\CRM.SyncService.WebDashboard\\Services\\TelegramService.cs",
+              "RelativeToolTip": "CRM.SyncService.WebDashboard\\Services\\TelegramService.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAIBJwAwAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-01T00:46:12.985Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "TelegramAlertService.cs",
+              "DocumentMoniker": "D:\\BE AIHUB\\CRM.SyncService.WebDashboard\\CRM.SyncService.WebDashboard\\Services\\TelegramAlertService.cs",
+              "RelativeDocumentMoniker": "CRM.SyncService.WebDashboard\\Services\\TelegramAlertService.cs",
+              "ToolTip": "D:\\BE AIHUB\\CRM.SyncService.WebDashboard\\CRM.SyncService.WebDashboard\\Services\\TelegramAlertService.cs",
+              "RelativeToolTip": "CRM.SyncService.WebDashboard\\Services\\TelegramAlertService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-01T00:43:42.339Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
               "Title": "_ViewImports.cshtml",
               "DocumentMoniker": "D:\\BE AIHUB\\CRM.SyncService.WebDashboard\\CRM.SyncService.WebDashboard\\Views\\_ViewImports.cshtml",
               "RelativeDocumentMoniker": "CRM.SyncService.WebDashboard\\Views\\_ViewImports.cshtml",
@@ -153,7 +221,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 26,
               "Title": "ContactsController.cs",
               "DocumentMoniker": "D:\\BE AIHUB\\CRM.SyncService.WebDashboard\\CRM.SyncService.WebDashboard\\Controllers\\ContactsController.cs",
               "RelativeDocumentMoniker": "CRM.SyncService.WebDashboard\\Controllers\\ContactsController.cs",
@@ -166,7 +234,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 8,
               "Title": "ContactsApiController.cs",
               "DocumentMoniker": "D:\\BE AIHUB\\CRM.SyncService.WebDashboard\\CRM.SyncService.WebDashboard\\Controllers\\ContactsApiController.cs",
               "RelativeDocumentMoniker": "CRM.SyncService.WebDashboard\\Controllers\\ContactsApiController.cs",
@@ -179,7 +247,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 17,
               "Title": "Register.cshtml",
               "DocumentMoniker": "D:\\BE AIHUB\\CRM.SyncService.WebDashboard\\CRM.SyncService.WebDashboard\\Views\\Account\\Register.cshtml",
               "RelativeDocumentMoniker": "CRM.SyncService.WebDashboard\\Views\\Account\\Register.cshtml",
@@ -192,7 +260,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 18,
               "Title": "Login.cshtml",
               "DocumentMoniker": "D:\\BE AIHUB\\CRM.SyncService.WebDashboard\\CRM.SyncService.WebDashboard\\Views\\Account\\Login.cshtml",
               "RelativeDocumentMoniker": "CRM.SyncService.WebDashboard\\Views\\Account\\Login.cshtml",
@@ -205,7 +273,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 28,
               "Title": "User.cs",
               "DocumentMoniker": "D:\\BE AIHUB\\CRM.SyncService.WebDashboard\\CRM.SyncService.WebDashboard\\Models\\User.cs",
               "RelativeDocumentMoniker": "CRM.SyncService.WebDashboard\\Models\\User.cs",
@@ -213,24 +281,25 @@
               "RelativeToolTip": "CRM.SyncService.WebDashboard\\Models\\User.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAlAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-31T04:00:19Z"
+              "WhenOpened": "2025-10-31T04:00:19Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "AccountController.cs",
               "DocumentMoniker": "D:\\BE AIHUB\\CRM.SyncService.WebDashboard\\CRM.SyncService.WebDashboard\\Controllers\\AccountController.cs",
               "RelativeDocumentMoniker": "CRM.SyncService.WebDashboard\\Controllers\\AccountController.cs",
               "ToolTip": "D:\\BE AIHUB\\CRM.SyncService.WebDashboard\\CRM.SyncService.WebDashboard\\Controllers\\AccountController.cs",
               "RelativeToolTip": "CRM.SyncService.WebDashboard\\Controllers\\AccountController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAADwAAAAAAAAAAAAAwHwAAAA7AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-10-31T04:00:06.835Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 13,
               "Title": "Delete.cshtml",
               "DocumentMoniker": "D:\\BE AIHUB\\CRM.SyncService.WebDashboard\\CRM.SyncService.WebDashboard\\Views\\Orders\\Delete.cshtml",
               "RelativeDocumentMoniker": "CRM.SyncService.WebDashboard\\Views\\Orders\\Delete.cshtml",
@@ -243,52 +312,52 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 12,
               "Title": "Edit.cshtml",
               "DocumentMoniker": "D:\\BE AIHUB\\CRM.SyncService.WebDashboard\\CRM.SyncService.WebDashboard\\Views\\Orders\\Edit.cshtml",
               "RelativeDocumentMoniker": "CRM.SyncService.WebDashboard\\Views\\Orders\\Edit.cshtml",
               "ToolTip": "D:\\BE AIHUB\\CRM.SyncService.WebDashboard\\CRM.SyncService.WebDashboard\\Views\\Orders\\Edit.cshtml",
               "RelativeToolTip": "CRM.SyncService.WebDashboard\\Views\\Orders\\Edit.cshtml",
-              "ViewState": "AgIAACEAAAAAAAAAAAAAABoAAAAOAAAAAAAAAA==",
+              "ViewState": "AgIAAB4AAAAAAAAAAIBJwBoAAAAOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-10-31T03:54:45.121Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 14,
               "Title": "Create.cshtml",
               "DocumentMoniker": "D:\\BE AIHUB\\CRM.SyncService.WebDashboard\\CRM.SyncService.WebDashboard\\Views\\Orders\\Create.cshtml",
               "RelativeDocumentMoniker": "CRM.SyncService.WebDashboard\\Views\\Orders\\Create.cshtml",
               "ToolTip": "D:\\BE AIHUB\\CRM.SyncService.WebDashboard\\CRM.SyncService.WebDashboard\\Views\\Orders\\Create.cshtml",
               "RelativeToolTip": "CRM.SyncService.WebDashboard\\Views\\Orders\\Create.cshtml",
-              "ViewState": "AgIAABsAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAABgAAAAAAAAAAIBJwA8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-10-31T03:53:36.639Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 27,
               "Title": "site.css",
               "DocumentMoniker": "D:\\BE AIHUB\\CRM.SyncService.WebDashboard\\CRM.SyncService.WebDashboard\\wwwroot\\css\\site.css",
               "RelativeDocumentMoniker": "CRM.SyncService.WebDashboard\\wwwroot\\css\\site.css",
               "ToolTip": "D:\\BE AIHUB\\CRM.SyncService.WebDashboard\\CRM.SyncService.WebDashboard\\wwwroot\\css\\site.css",
               "RelativeToolTip": "CRM.SyncService.WebDashboard\\wwwroot\\css\\site.css",
-              "ViewState": "AgIAAEIAAAAAAAAAAAAAAAoAAAAUAAAAAAAAAA==",
+              "ViewState": "AgIAAD8AAAAAAAAAAIBJwAoAAAAUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
               "WhenOpened": "2025-10-31T02:30:35.602Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 9,
               "Title": "_Layout.cshtml",
               "DocumentMoniker": "D:\\BE AIHUB\\CRM.SyncService.WebDashboard\\CRM.SyncService.WebDashboard\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "CRM.SyncService.WebDashboard\\Views\\Shared\\_Layout.cshtml",
               "ToolTip": "D:\\BE AIHUB\\CRM.SyncService.WebDashboard\\CRM.SyncService.WebDashboard\\Views\\Shared\\_Layout.cshtml",
               "RelativeToolTip": "CRM.SyncService.WebDashboard\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAAFUAAAAAAAAAAAAAAF0AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAFIAAAAAAAAAAIBJwF0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-10-31T02:06:02.95Z",
               "EditorCaption": ""
@@ -301,27 +370,27 @@
               "RelativeDocumentMoniker": "CRM.SyncService.WebDashboard\\Program.cs",
               "ToolTip": "D:\\BE AIHUB\\CRM.SyncService.WebDashboard\\CRM.SyncService.WebDashboard\\Program.cs",
               "RelativeToolTip": "CRM.SyncService.WebDashboard\\Program.cs",
-              "ViewState": "AgIAACcAAAAAAAAAAAAAACgAAAAtAAAAAAAAAA==",
+              "ViewState": "AgIAAD0AAAAAAAAAAAAwwFAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-10-31T02:05:42.8Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 16,
               "Title": "Index.cshtml",
               "DocumentMoniker": "D:\\BE AIHUB\\CRM.SyncService.WebDashboard\\CRM.SyncService.WebDashboard\\Views\\Contracts\\Index.cshtml",
               "RelativeDocumentMoniker": "CRM.SyncService.WebDashboard\\Views\\Contracts\\Index.cshtml",
               "ToolTip": "D:\\BE AIHUB\\CRM.SyncService.WebDashboard\\CRM.SyncService.WebDashboard\\Views\\Contracts\\Index.cshtml",
               "RelativeToolTip": "CRM.SyncService.WebDashboard\\Views\\Contracts\\Index.cshtml",
-              "ViewState": "AgIAAEIAAAAAAAAAAAAAADoAAAAkAAAAAAAAAA==",
+              "ViewState": "AgIAAD8AAAAAAAAAAIBJwDoAAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-10-31T01:58:40.271Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 20,
               "Title": "ServiceType.cs",
               "DocumentMoniker": "D:\\BE AIHUB\\CRM.SyncService.WebDashboard\\CRM.SyncService.WebDashboard\\Models\\Enums\\ServiceType.cs",
               "RelativeDocumentMoniker": "CRM.SyncService.WebDashboard\\Models\\Enums\\ServiceType.cs",
@@ -334,7 +403,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 21,
               "Title": "OrderStatus.cs",
               "DocumentMoniker": "D:\\BE AIHUB\\CRM.SyncService.WebDashboard\\CRM.SyncService.WebDashboard\\Models\\Enums\\OrderStatus.cs",
               "RelativeDocumentMoniker": "CRM.SyncService.WebDashboard\\Models\\Enums\\OrderStatus.cs",
@@ -347,7 +416,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 7,
               "Title": "ServiceItemController.cs",
               "DocumentMoniker": "D:\\BE AIHUB\\CRM.SyncService.WebDashboard\\CRM.SyncService.WebDashboard\\Controllers\\ServiceItemController.cs",
               "RelativeDocumentMoniker": "CRM.SyncService.WebDashboard\\Controllers\\ServiceItemController.cs",
@@ -360,7 +429,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 25,
               "Title": "ContractsController.cs",
               "DocumentMoniker": "D:\\BE AIHUB\\CRM.SyncService.WebDashboard\\CRM.SyncService.WebDashboard\\Controllers\\ContractsController.cs",
               "RelativeDocumentMoniker": "CRM.SyncService.WebDashboard\\Controllers\\ContractsController.cs",
@@ -373,7 +442,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 24,
               "Title": "DashboardController.cs",
               "DocumentMoniker": "D:\\BE AIHUB\\CRM.SyncService.WebDashboard\\CRM.SyncService.WebDashboard\\Controllers\\DashboardController.cs",
               "RelativeDocumentMoniker": "CRM.SyncService.WebDashboard\\Controllers\\DashboardController.cs",
@@ -386,7 +455,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 19,
               "Title": "Contact.cs",
               "DocumentMoniker": "D:\\BE AIHUB\\CRM.SyncService.WebDashboard\\CRM.SyncService.WebDashboard\\Models\\Contact.cs",
               "RelativeDocumentMoniker": "CRM.SyncService.WebDashboard\\Models\\Contact.cs",
@@ -399,7 +468,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 30,
               "Title": "Contract.cs",
               "DocumentMoniker": "D:\\BE AIHUB\\CRM.SyncService.WebDashboard\\CRM.SyncService.WebDashboard\\Models\\Contract.cs",
               "RelativeDocumentMoniker": "CRM.SyncService.WebDashboard\\Models\\Contract.cs",
@@ -407,62 +476,64 @@
               "RelativeToolTip": "CRM.SyncService.WebDashboard\\Models\\Contract.cs",
               "ViewState": "AgIAABUAAAAAAAAAAADwvyIAAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-31T01:30:36.09Z"
+              "WhenOpened": "2025-10-31T01:30:36.09Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 31,
               "Title": "ServiceItem.cs",
               "DocumentMoniker": "D:\\BE AIHUB\\CRM.SyncService.WebDashboard\\CRM.SyncService.WebDashboard\\Models\\ServiceItem.cs",
               "RelativeDocumentMoniker": "CRM.SyncService.WebDashboard\\Models\\ServiceItem.cs",
               "ToolTip": "D:\\BE AIHUB\\CRM.SyncService.WebDashboard\\CRM.SyncService.WebDashboard\\Models\\ServiceItem.cs",
               "RelativeToolTip": "CRM.SyncService.WebDashboard\\Models\\ServiceItem.cs",
-              "ViewState": "AgIAAAQAAAAAAAAAAAA3wAoAAAAvAAAAAAAAAA==",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAYwAoAAAAvAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-31T01:30:56.315Z"
+              "WhenOpened": "2025-10-31T01:30:56.315Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 11,
               "Title": "Index.cshtml",
               "DocumentMoniker": "D:\\BE AIHUB\\CRM.SyncService.WebDashboard\\CRM.SyncService.WebDashboard\\Views\\Orders\\Index.cshtml",
               "RelativeDocumentMoniker": "CRM.SyncService.WebDashboard\\Views\\Orders\\Index.cshtml",
               "ToolTip": "D:\\BE AIHUB\\CRM.SyncService.WebDashboard\\CRM.SyncService.WebDashboard\\Views\\Orders\\Index.cshtml",
               "RelativeToolTip": "CRM.SyncService.WebDashboard\\Views\\Orders\\Index.cshtml",
-              "ViewState": "AgIAAB4AAAAAAAAAAAAAABMAAAANAAAAAAAAAA==",
+              "ViewState": "AgIAABsAAAAAAAAAAIBJwBMAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-10-31T01:34:54.545Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 15,
               "Title": "Index.cshtml",
               "DocumentMoniker": "D:\\BE AIHUB\\CRM.SyncService.WebDashboard\\CRM.SyncService.WebDashboard\\Views\\Dashboard\\Index.cshtml",
               "RelativeDocumentMoniker": "CRM.SyncService.WebDashboard\\Views\\Dashboard\\Index.cshtml",
               "ToolTip": "D:\\BE AIHUB\\CRM.SyncService.WebDashboard\\CRM.SyncService.WebDashboard\\Views\\Dashboard\\Index.cshtml",
               "RelativeToolTip": "CRM.SyncService.WebDashboard\\Views\\Dashboard\\Index.cshtml",
-              "ViewState": "AgIAAKgAAAAAAAAAAAAAAJEAAAAKAAAAAAAAAA==",
+              "ViewState": "AgIAAKUAAAAAAAAAAIBJwJEAAAAKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-10-31T01:32:41.245Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 0,
               "Title": "appsettings.json",
               "DocumentMoniker": "D:\\BE AIHUB\\CRM.SyncService.WebDashboard\\CRM.SyncService.WebDashboard\\appsettings.json",
               "RelativeDocumentMoniker": "CRM.SyncService.WebDashboard\\appsettings.json",
               "ToolTip": "D:\\BE AIHUB\\CRM.SyncService.WebDashboard\\CRM.SyncService.WebDashboard\\appsettings.json",
               "RelativeToolTip": "CRM.SyncService.WebDashboard\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAABEAAAAAAAAAAAAAAA8AAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
               "WhenOpened": "2025-10-31T01:31:52.795Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 22,
               "Title": "AppDbContext.cs",
               "DocumentMoniker": "D:\\BE AIHUB\\CRM.SyncService.WebDashboard\\CRM.SyncService.WebDashboard\\Data\\AppDbContext.cs",
               "RelativeDocumentMoniker": "CRM.SyncService.WebDashboard\\Data\\AppDbContext.cs",
@@ -475,7 +546,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 29,
               "Title": "Order.cs",
               "DocumentMoniker": "D:\\BE AIHUB\\CRM.SyncService.WebDashboard\\CRM.SyncService.WebDashboard\\Models\\Order.cs",
               "RelativeDocumentMoniker": "CRM.SyncService.WebDashboard\\Models\\Order.cs",
@@ -483,7 +554,8 @@
               "RelativeToolTip": "CRM.SyncService.WebDashboard\\Models\\Order.cs",
               "ViewState": "AgIAAAwAAAAAAAAAAAAswBkAAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-31T01:30:12.648Z"
+              "WhenOpened": "2025-10-31T01:30:12.648Z",
+              "EditorCaption": ""
             }
           ]
         }

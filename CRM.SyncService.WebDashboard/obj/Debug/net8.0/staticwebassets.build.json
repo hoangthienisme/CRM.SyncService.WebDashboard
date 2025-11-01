@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "ygtr3z/prgG5xNtKFdMBJ6Oy5ObQdet+hTsvK2j5gXM=",
+  "Hash": "a9+/3162JxMpKaNREIGNBZOfampnlI8+i8NLzmY+8qw=",
   "Source": "CRM.SyncService.WebDashboard",
   "BasePath": "_content/CRM.SyncService.WebDashboard",
   "Mode": "Default",
@@ -1343,7 +1343,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 29 Oct 2025 01:47:10 GMT"
+          "Value": "Sat, 01 Nov 2025 02:25:51 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1388,7 +1388,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 29 Oct 2025 01:47:10 GMT"
+          "Value": "Sat, 01 Nov 2025 02:25:50 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1433,7 +1433,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 29 Oct 2025 01:47:10 GMT"
+          "Value": "Sat, 01 Nov 2025 02:25:51 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1470,7 +1470,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 29 Oct 2025 01:47:10 GMT"
+          "Value": "Sat, 01 Nov 2025 02:25:50 GMT"
         },
         {
           "Name": "Cache-Control",
