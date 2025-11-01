@@ -3,6 +3,18 @@
   "WorkspaceRootPath": "D:\\BE AIHUB\\CRM.SyncService.WebDashboard\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{83CDFE5C-DCA8-44CB-AD5D-8A97458651A7}|CRM.SyncService.WebDashboard\\CRM.SyncService.WebDashboard.csproj|d:\\be aihub\\crm.syncservice.webdashboard\\crm.syncservice.webdashboard\\services\\telegramalertservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{83CDFE5C-DCA8-44CB-AD5D-8A97458651A7}|CRM.SyncService.WebDashboard\\CRM.SyncService.WebDashboard.csproj|solutionrelative:crm.syncservice.webdashboard\\services\\telegramalertservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{83CDFE5C-DCA8-44CB-AD5D-8A97458651A7}|CRM.SyncService.WebDashboard\\CRM.SyncService.WebDashboard.csproj|d:\\be aihub\\crm.syncservice.webdashboard\\crm.syncservice.webdashboard\\services\\googlesheetservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{83CDFE5C-DCA8-44CB-AD5D-8A97458651A7}|CRM.SyncService.WebDashboard\\CRM.SyncService.WebDashboard.csproj|solutionrelative:crm.syncservice.webdashboard\\services\\googlesheetservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{83CDFE5C-DCA8-44CB-AD5D-8A97458651A7}|CRM.SyncService.WebDashboard\\CRM.SyncService.WebDashboard.csproj|d:\\be aihub\\crm.syncservice.webdashboard\\crm.syncservice.webdashboard\\services\\telegramservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{83CDFE5C-DCA8-44CB-AD5D-8A97458651A7}|CRM.SyncService.WebDashboard\\CRM.SyncService.WebDashboard.csproj|solutionrelative:crm.syncservice.webdashboard\\services\\telegramservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{83CDFE5C-DCA8-44CB-AD5D-8A97458651A7}|CRM.SyncService.WebDashboard\\CRM.SyncService.WebDashboard.csproj|d:\\be aihub\\crm.syncservice.webdashboard\\crm.syncservice.webdashboard\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{83CDFE5C-DCA8-44CB-AD5D-8A97458651A7}|CRM.SyncService.WebDashboard\\CRM.SyncService.WebDashboard.csproj|solutionrelative:crm.syncservice.webdashboard\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
@@ -17,18 +29,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{83CDFE5C-DCA8-44CB-AD5D-8A97458651A7}|CRM.SyncService.WebDashboard\\CRM.SyncService.WebDashboard.csproj|d:\\be aihub\\crm.syncservice.webdashboard\\crm.syncservice.webdashboard\\crm.syncservice.webdashboard.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{83CDFE5C-DCA8-44CB-AD5D-8A97458651A7}|CRM.SyncService.WebDashboard\\CRM.SyncService.WebDashboard.csproj|solutionrelative:crm.syncservice.webdashboard\\crm.syncservice.webdashboard.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{83CDFE5C-DCA8-44CB-AD5D-8A97458651A7}|CRM.SyncService.WebDashboard\\CRM.SyncService.WebDashboard.csproj|d:\\be aihub\\crm.syncservice.webdashboard\\crm.syncservice.webdashboard\\services\\googlesheetservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{83CDFE5C-DCA8-44CB-AD5D-8A97458651A7}|CRM.SyncService.WebDashboard\\CRM.SyncService.WebDashboard.csproj|solutionrelative:crm.syncservice.webdashboard\\services\\googlesheetservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{83CDFE5C-DCA8-44CB-AD5D-8A97458651A7}|CRM.SyncService.WebDashboard\\CRM.SyncService.WebDashboard.csproj|d:\\be aihub\\crm.syncservice.webdashboard\\crm.syncservice.webdashboard\\services\\telegramalertservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{83CDFE5C-DCA8-44CB-AD5D-8A97458651A7}|CRM.SyncService.WebDashboard\\CRM.SyncService.WebDashboard.csproj|solutionrelative:crm.syncservice.webdashboard\\services\\telegramalertservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{83CDFE5C-DCA8-44CB-AD5D-8A97458651A7}|CRM.SyncService.WebDashboard\\CRM.SyncService.WebDashboard.csproj|d:\\be aihub\\crm.syncservice.webdashboard\\crm.syncservice.webdashboard\\services\\telegramservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{83CDFE5C-DCA8-44CB-AD5D-8A97458651A7}|CRM.SyncService.WebDashboard\\CRM.SyncService.WebDashboard.csproj|solutionrelative:crm.syncservice.webdashboard\\services\\telegramservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{83CDFE5C-DCA8-44CB-AD5D-8A97458651A7}|CRM.SyncService.WebDashboard\\CRM.SyncService.WebDashboard.csproj|d:\\be aihub\\crm.syncservice.webdashboard\\crm.syncservice.webdashboard\\controllers\\serviceitemcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -138,7 +138,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 29,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Document",
@@ -155,7 +155,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 6,
               "Title": "CRM.SyncService.WebDashboard.csproj",
               "DocumentMoniker": "D:\\BE AIHUB\\CRM.SyncService.WebDashboard\\CRM.SyncService.WebDashboard\\CRM.SyncService.WebDashboard.csproj",
               "RelativeDocumentMoniker": "CRM.SyncService.WebDashboard\\CRM.SyncService.WebDashboard.csproj",
@@ -167,39 +167,42 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 1,
               "Title": "GoogleSheetService.cs",
               "DocumentMoniker": "D:\\BE AIHUB\\CRM.SyncService.WebDashboard\\CRM.SyncService.WebDashboard\\Services\\GoogleSheetService.cs",
               "RelativeDocumentMoniker": "CRM.SyncService.WebDashboard\\Services\\GoogleSheetService.cs",
               "ToolTip": "D:\\BE AIHUB\\CRM.SyncService.WebDashboard\\CRM.SyncService.WebDashboard\\Services\\GoogleSheetService.cs",
               "RelativeToolTip": "CRM.SyncService.WebDashboard\\Services\\GoogleSheetService.cs",
-              "ViewState": "AgIAABgAAAAAAAAAAAAAAAsAAAAxAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAxAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-01T01:28:41.073Z"
+              "WhenOpened": "2025-11-01T01:28:41.073Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 2,
               "Title": "TelegramService.cs",
               "DocumentMoniker": "D:\\BE AIHUB\\CRM.SyncService.WebDashboard\\CRM.SyncService.WebDashboard\\Services\\TelegramService.cs",
               "RelativeDocumentMoniker": "CRM.SyncService.WebDashboard\\Services\\TelegramService.cs",
               "ToolTip": "D:\\BE AIHUB\\CRM.SyncService.WebDashboard\\CRM.SyncService.WebDashboard\\Services\\TelegramService.cs",
               "RelativeToolTip": "CRM.SyncService.WebDashboard\\Services\\TelegramService.cs",
-              "ViewState": "AgIAABIAAAAAAAAAAIBJwAwAAAALAAAAAAAAAA==",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAwAAAALAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-01T00:46:12.985Z"
+              "WhenOpened": "2025-11-01T00:46:12.985Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 0,
               "Title": "TelegramAlertService.cs",
               "DocumentMoniker": "D:\\BE AIHUB\\CRM.SyncService.WebDashboard\\CRM.SyncService.WebDashboard\\Services\\TelegramAlertService.cs",
               "RelativeDocumentMoniker": "CRM.SyncService.WebDashboard\\Services\\TelegramAlertService.cs",
               "ToolTip": "D:\\BE AIHUB\\CRM.SyncService.WebDashboard\\CRM.SyncService.WebDashboard\\Services\\TelegramAlertService.cs",
               "RelativeToolTip": "CRM.SyncService.WebDashboard\\Services\\TelegramAlertService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAA4AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-01T00:43:42.339Z"
+              "WhenOpened": "2025-11-01T00:43:42.339Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -275,7 +278,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
               "Title": "AccountController.cs",
               "DocumentMoniker": "D:\\BE AIHUB\\CRM.SyncService.WebDashboard\\CRM.SyncService.WebDashboard\\Controllers\\AccountController.cs",
               "RelativeDocumentMoniker": "CRM.SyncService.WebDashboard\\Controllers\\AccountController.cs",
@@ -347,7 +350,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 5,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\BE AIHUB\\CRM.SyncService.WebDashboard\\CRM.SyncService.WebDashboard\\Program.cs",
               "RelativeDocumentMoniker": "CRM.SyncService.WebDashboard\\Program.cs",
@@ -491,13 +494,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "appsettings.json",
               "DocumentMoniker": "D:\\BE AIHUB\\CRM.SyncService.WebDashboard\\CRM.SyncService.WebDashboard\\appsettings.json",
               "RelativeDocumentMoniker": "CRM.SyncService.WebDashboard\\appsettings.json",
               "ToolTip": "D:\\BE AIHUB\\CRM.SyncService.WebDashboard\\CRM.SyncService.WebDashboard\\appsettings.json",
               "RelativeToolTip": "CRM.SyncService.WebDashboard\\appsettings.json",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAowCIAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
               "WhenOpened": "2025-10-31T01:31:52.795Z",
               "EditorCaption": ""

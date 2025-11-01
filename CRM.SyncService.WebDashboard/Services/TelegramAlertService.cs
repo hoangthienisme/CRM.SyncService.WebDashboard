@@ -2,8 +2,8 @@
 {
     public class TelegramAlertService
     {
-        private readonly string _botToken = "7743481184:AAG7mt4MYz4XBGb1-SeHd0nLMy2TM6OVxys";
-        private readonly string _chatId = "-1003065878488";
+        private readonly string _botToken = "8458318076:AAHVLfO0LEoQjK8rfFbTCPDwWEk6MKIVjKk";
+        private readonly string _chatId = "-5060501651";
 
         public async Task SendAlertAsync(string message)
         {
